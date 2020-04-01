@@ -1,13 +1,18 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: rgb(58, 58, 58);
   color: beige;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
+}
+
+.container {
+  display: flex;
+  align-content: center;
 }
 
 h1 {
   font-size: 50px;
-  letter-spacing: .5em;
+  letter-spacing: 0.5em;
   text-align: center;
 }
 
@@ -18,29 +23,37 @@ h5 {
 
 span {
   display: block;
-  margin: 20px;
+}
+
+strong {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .card {
-  width: 350px;
+  width: 100%;
   margin: 30px;
   text-align: center;
   background-color: rgb(24, 24, 24);
   border-radius: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.527);
   display: inline-block;
 }
 
 .ams {
-  width: 350px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
 .ss {
-  width: 350px;
-  height: 468px;
+  width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+
+img {
+  height: 80%;
 }
